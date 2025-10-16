@@ -1,0 +1,36 @@
+# ==========================
+# Terraform
+# ==========================
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# ==========================
+# Lambda
+# ==========================
+lambda_function/lambda.zip
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================
+# System / Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# ==========================
+# OS / Temp Files
+# ==========================
+*.tmp
+*.bak
